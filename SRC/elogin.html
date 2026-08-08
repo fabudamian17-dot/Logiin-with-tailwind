@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="justify-center items-center min-h-screen bg-sky-100">
+
+      <div class="flex flex-col gap-4 p-3 text-white-700 bg-blue-200 w-[420px] 
+      justify-center items-center rounded-md  mx-auto">
+            <h1 class="text-3xl font-bold text-black-300">
+                  login form
+            </h1>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                  <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                  <path
+                        d="M12 12c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5m0-8c1.65 0 3 1.35 3 3s-1.35 3-3 3-3-1.35-3-3 1.35-3 3-3M4 22h16c.55 0 1-.45 1-1v-1c0-3.86-3.14-7-7-7h-4c-3.86 0-7 3.14-7 7v1c0 .55.45 1 1 1m6-7h4c2.76 0 5 2.24 5 5H5c0-2.76 2.24-5 5-5">
+                  </path>
+            </svg>
+            <label for="email" class="relative text-lg font-semibold rounded-md">Email</label>
+            <input type="email" id="email" placeholder="email" class="p-3 rounded-md " required>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                  <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                  <path
+                        d="M6 22h12c1.1 0 2-.9 2-2v-9c0-1.1-.9-2-2-2h-1V7c0-2.76-2.24-5-5-5S7 4.24 7 7v2H6c-1.1 0-2 .9-2 2v9c0 1.1.9 2 2 2M9 7c0-1.65 1.35-3 3-3s3 1.35 3 3v2H9zm-3 4h12v9h-5v-2.28c.59-.35 1-.99 1-1.72 0-1.1-.9-2-2-2s-2 .9-2 2a2 2 0 0 0 1 1.72V20H6z">
+                  </path>
+            </svg>
+            <label for="password" class="relative text-lg font-semibold">Password</label>
+            <input type="password" id="password" placeholder="password" class="p-3 rounded-md" required>
+
+
+            <!--remember or forget-->
+            <div>
+                  <label for="">
+                        <input type="checkbox">Remember me
+                  </label>
+                  <a href="#" class="text-blue-200 hover:text-blue-700">Forget password
+            </div>
+
+            <button type="submit"
+                  class="bg-blue-500 text-white p-2 rounded-full hover:bg-blue-700 w-full text-center align-middle" required>Login</button>
+            <!--Register link-->
+            <p class="bg-white text-lg text-blue-800">
+                  Don't have an account? <a href="#" class="text-black-500  hover:text-blue-700">Register here</a>
+            </p>
+      </div>
+</body>
+
+</html>
